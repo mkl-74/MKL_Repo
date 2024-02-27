@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#planning {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
